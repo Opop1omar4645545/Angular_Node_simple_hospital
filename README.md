@@ -1,22 +1,11 @@
 To run the project locally, follow these steps:
 
-1. Clone the repository:
+1. Navigate to the `auth` folder:
     ```bash
-    git clone https://github.com/<your-username>/<your-repo>.git
-    cd <your-repo>
+    cd nodeauth
     ```
 
-2. Install dependencies for the server (assuming you are in the root directory):
-    ```bash
-    npm install
-    ```
-
-3. Navigate to the `auth` folder:
-    ```bash
-    cd auth
-    ```
-
-4. Start the Node.js server:
+2. Start the Node.js server:
     ```bash
     node index.js
     ```
@@ -27,14 +16,9 @@ To run the frontend:
 1. Navigate back to the root directory:
     ```bash
     cd ..
+    cd angular-16-client
     ```
-
-2. Install dependencies for the frontend:
-    ```bash
-    npm install
-    ```
-
-3. Start the frontend:
+2. Start the frontend:
     ```bash
     npm start
     ```
